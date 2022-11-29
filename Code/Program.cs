@@ -20,3 +20,7 @@ void PrintArray(string[] array)
     }
 }
 
+
+string[] input = new string[5] { "Om", "Volt", "Vat", "Amper", "MC" };
+string[] output = TextNotMore3Symbols(input);
+PrintArray(output);
